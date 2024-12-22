@@ -5,7 +5,7 @@ _Use this template to do the initial setup of your FastAPI project._
 - Python `3.12.7`. Other versions likely work too, but it's not guaranteed.
 
 ### Setting Up
-> All the commands are run inside the project directory.
+> All the commands are written in `bash` and run inside the project directory.
 
 `i.` **Create your new repo** using this template. [How to create a repository from a template?](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
 
