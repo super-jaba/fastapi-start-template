@@ -1,6 +1,9 @@
 # FastAPI Start Template
 _Use this template to do the initial setup of your FastAPI project._
 
+### Prerequisites
+- Python `3.12.7`. Other versions likely work too, but it's not guaranteed.
+
 ### Setting Up
 > All the commands are run inside the project directory.
 
