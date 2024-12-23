@@ -1,11 +1,20 @@
 import uvicorn
 from fastapi import FastAPI
 
+from . import example
+
+
+def setup_routers(app: FastAPI) -> None:
+    app.include_router(example.router, prefix='/example')
+
 
 def get_fastapi() -> FastAPI:
     app = FastAPI(
         # Titles, summary, debug, etc...
     )
+
+    setup_routers(app)
+
     return app
 
 
